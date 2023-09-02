@@ -1,0 +1,45 @@
+/* options.css */
+.categoryFilter{
+  text-align: left;
+  margin-left: 5%;
+} 
+
+.categoryFilter select{
+    font-size: 1.5rem;
+    margin: 1% 3%;
+    text-align: center;
+    background-color: #333;
+    color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.2rem;
+
+  }
+  .categoryFilter h1{
+    margin: 0 3%;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+  }
+  
+  .option {
+    
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .option:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .shopTitle h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .categoryFilter{
+      text-align: center;
+    }
+  }
+  

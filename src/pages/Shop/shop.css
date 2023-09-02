@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Anton&family=Bacasime+Antique&family=Belanosima:wght@700&family=Borel&family=Bungee+Spice&family=Caprasimo&family=Dosis:wght@200&family=Kanit:ital,wght@1,900&family=Merriweather:wght@900&family=Montserrat:wght@500&family=Sacramento&display=swap');
+
+.shopTitle {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Agdasima', sans-serif;
+    text-shadow: rgb(136, 217, 217) 1px 8px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    gap: 20px;
+    justify-items: center;
+}
+
+.product img{
+    width: 70%;
+    max-width: 100%;
+}
+
+.product .description {
+    text-align: center;
+}
+
+.product :hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.addToCartBtnn{
+    background-color: trasparent;
+    border: 2px solid black;
+    min-width: 100px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+
+}
+
+.addToCartBtnn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .products {
+        grid-template-columns: 1fr;
+    }
+    .product img {
+        width: 60%;
+        margin-left: 5%;
+    }
+    h1{
+        visibility: hidden;
+        position: absolute;
+    }
+}

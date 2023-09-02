@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Anton&family=Bacasime+Antique&family=Belanosima:wght@700&family=Bungee+Spice&family=Caprasimo&family=Dosis:wght@200&family=Kanit:ital,wght@1,900&family=Merriweather:wght@900&family=Montserrat:wght@500&family=Sacramento&display=swap');
+
+.nav {
+    box-sizing: border-box;
+    background-color: #333;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    padding-top: 25px;
+    padding-bottom: 25px;   
+    font-family: 'Agdasima', sans-serif;
+    text-shadow: 1px 1px black;
+}
+ 
+body{
+    margin: 0;
+}
+
+.nav li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+    font-size: 3rem;
+}
+
+.site-title {
+    font-size: 3rem;
+}
+.site-title :hover{
+    color: black;
+}
+
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+.nav li :hover  {
+    color: black;
+}
+
+.container {
+    margin: 1rem;
+    text-align: center;
+}
+.category{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.options{
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+}
+
