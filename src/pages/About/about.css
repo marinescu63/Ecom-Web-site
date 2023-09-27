@@ -1,4 +1,10 @@
-.container1{
+
+.footer{
+  position: absolute;
+  left: 0;
+}
+
+.aboutus{
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;   
@@ -21,6 +27,8 @@ p{
     width: 100%;
     margin-top: 7.5%;
 }
+
+
 .heading{
     font-size: 2rem;
     letter-spacing: 0.3rem;
@@ -28,10 +36,11 @@ p{
 }
 
 @media (max-width: 769px) {
-    .container1 {
-    grid-template-columns: 1fr; 
+    .aboutus{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
-  
     .container1 h1 {
       font-size: 2.5rem;
       visibility: visible;
@@ -41,10 +50,9 @@ p{
     p {
       font-size: 1.5rem; 
     }
-  
-    .footer {
-      padding: 3% 0;
+    .footer p{
       margin-top: 13%; 
+      font-size: 1rem;
     }
   }
 

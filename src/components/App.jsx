@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./navbar";
 import Component from "./Routing";
 import ShopContextProvider from "../context/shop-context";
-
+import "./app.css"
 
 
 
